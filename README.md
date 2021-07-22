@@ -1,4 +1,4 @@
-# REBRANDLY-PowerShell
+# Microsoft GRAPH API Examples-PowerShell
 Some examples of how to use Microsoft Graph API with PowerShell
 
 
