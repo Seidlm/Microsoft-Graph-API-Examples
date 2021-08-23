@@ -7,6 +7,7 @@ Some examples of how to use Microsoft Graph API with PowerShell
 - Send Chat Message to Teams Channel: https://www.techguy.at/send-chat-message-to-a-teams-channel-with-powershell-and-ms-graph-api/
 - Send Card Message to Teams Channel : https://www.techguy.at/send-card-message-to-a-teams-channel-with-powershell-and-ms-graph-api/
 - Assign Windows 365 License: https://www.techguy.at/assign-windows-365-license-with-powershell-and-ms-graph-api
+- Create Microsoft TODO Task: https://www.techguy.at/create-microsoft-todo-task-with-powershell-and-microsoft-graph-api/
 - 
 
 
