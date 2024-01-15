@@ -15,7 +15,7 @@ au2mator - Self Service Portal is a Web-based Frontend to build forms and trigge
 - Create Microsoft TODO Task: https://www.techguy.at/create-microsoft-todo-task-with-powershell-and-microsoft-graph-api/
 - Connect Azure SQL: https://www.techguy.at/query-azure-sql-database-with-powershell-and-azure-app-registration/
 - Enable Lost Mode in Intune: https://www.techguy.at/enable-lost-mode-for-intune-device-with-powershell-and-microsoft-graph-api/
-
+- Draft Mail: https://www.techguy.at/draft-mail-with-powershell-and-microsoft-graph-api/
 
 
 # Other Repos
