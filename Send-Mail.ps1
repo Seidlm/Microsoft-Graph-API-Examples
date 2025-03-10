@@ -3,6 +3,7 @@ $Clientsecret = "yourSecret"
 $tenantID = "yourTenantID"
 
 $MailSender = "michael.seidl@au2mator.com"
+$Recipient = "michael.seidl@au2mator.com"
 
 #Connect to GRAPH API
 $tokenBody = @{
@@ -17,7 +18,7 @@ $headers = @{
     "Content-type"  = "application/json"
 }
 
-#Send Mail    
+#Send Mail
 $URLsend = "https://graph.microsoft.com/v1.0/users/$MailSender/sendMail"
 $BodyJsonsend = @"
                     {
@@ -28,13 +29,13 @@ $BodyJsonsend = @"
                             "content": "This Mail is sent via Microsoft <br>
                             GRAPH <br>
                             API<br>
-                            
+
                             "
                           },
                           "toRecipients": [
                             {
                               "emailAddress": {
-                                "address": "michael.seidl@au2mator.com"
+                                "address": "$Recipient"
                               }
                             }
                           ]
