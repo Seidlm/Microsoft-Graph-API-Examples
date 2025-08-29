@@ -129,11 +129,11 @@ else {
 
 
 #Destionation Folder
-$Dest = "Y:\OneDrive - Michael Seidl"
+$Dest = "Y:\OneDrive - *YourUPN*"
 
 #OneDrive Details
-$Drive = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/michael.seidl@au2mator.com/drive" -Method GET -Headers $global:headers
-$Child = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/michael.seidl@au2mator.com/drives/$($Drive.id)/root/children" -Method GET -Headers $global:headers
+$Drive = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/*YourUPN*/drive" -Method GET -Headers $global:headers
+$Child = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/*YourUPN*/drives/$($Drive.id)/root/children" -Method GET -Headers $global:headers
 
 
 Function Download-Item {
